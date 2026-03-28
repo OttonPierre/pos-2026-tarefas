@@ -1,6 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE cardapio SYSTEM "definicoes.dtd">
+
 <cardapio>
     <prato id="P01">
-
+        <nome>Arroz com frango</nome>
+        <descricao>prato muito nutritivo com bastante carboidratos e proteínas</descricao>
+        <ingredientes>
+            <ingrediente>Arroz</ingrediente>
+            <ingrediente>Frango</ingrediente>
+        </ingredientes>
+        <preco moeda="BRL">&reais; 20</preco>
+        <calorias>400Kcal</calorias>
+        <tempoPreparo>20 min</tempoPreparo>
+    </prato>
+        <prato id="P02">
+        <nome>Macarrão com carne</nome>
+        <descricao>prato muito saboroso e nutritivo</descricao>
+        <ingredientes>
+            <ingrediente>Macarrão</ingrediente>
+            <ingrediente>Carne</ingrediente>
+        </ingredientes>
+        <preco moeda="BRL">&reais; 30</preco>
+        <calorias>500Kcal</calorias>
+        <tempoPreparo>30 min</tempoPreparo>
+    </prato>
+        <prato id="P03">
+        <nome>creme de galinha</nome>
+        <descricao>prato simplesmente fenomenal, muito saboroso e saciante</descricao>
+        <ingredientes>
+            <ingrediente>Frango</ingrediente>
+            <ingrediente>Leite</ingrediente>
+            <ingrediente>alho</ingrediente>
+            <ingrediente>pimenta-do-reino</ingrediente>
+        </ingredientes>
+        <preco moeda="BRL">&reais; 40</preco>
+        <calorias>450Kcal</calorias>
+        <tempoPreparo>1 hora</tempoPreparo>
+    </prato>
+        <prato id="P04">
+        <nome>Arroz com ovo</nome>
+        <descricao>prato saboroso e barato</descricao>
+        <ingredientes>
+            <ingrediente>Arroz</ingrediente>
+            <ingrediente>Ovo</ingrediente>
+        </ingredientes>
+        <preco moeda="BRL">&reais; 10</preco>
+        <calorias>200Kcal</calorias>
+        <tempoPreparo>15 min</tempoPreparo>
+    </prato>
+        <prato id="P05">
+        <nome>Arroz com fafora</nome>
+        <descricao>prato para encher o bucho</descricao>
+        <ingredientes>
+            <ingrediente>Arroz</ingrediente>
+            <ingrediente>Fafora</ingrediente>
+        </ingredientes>
+        <preco moeda="BRL">&reais; 5</preco>
+        <calorias>200Kcal</calorias>
+        <tempoPreparo>10 min</tempoPreparo>
     </prato>
 </cardapio>

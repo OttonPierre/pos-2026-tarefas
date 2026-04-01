@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE quiz SYSTEM "quiz.dtd">
+
+<quiz versao="V001">
+    <disciplina>Matematica</disciplina>
+    <professor>
+        <nome>Cirilo</nome>
+        <matrícula>2013423</matrícula>
+    </professor>
+    <turma>infoweb4v</turma>
+    <data>01/04/2026</data>
+    <questões>
+        <questão>
+            <enunciado>quanto é 5+5?</enunciado>
+            <pontuação>10 pontos</pontuação>
+            <alternativas>
+                <alternativa correta="sim">10</alternativa>
+                <alternativa correta="nao">5</alternativa>
+                <alternativa correta="nao">6</alternativa>
+                <alternativa correta="nao">11</alternativa>
+            </alternativas>
+        </questão>
+        <questão>
+            <enunciado>quanto é 12-7?</enunciado>
+            <pontuação>10 pontos</pontuação>
+            <alternativas>
+                <alternativa correta="sim">5</alternativa>
+                <alternativa correta="nao">4</alternativa>
+                <alternativa correta="nao">6</alternativa>
+                <alternativa correta="nao">19</alternativa>
+            </alternativas>
+        </questão>
+        <questão>
+            <enunciado>quanto é 3x4?</enunciado>
+            <pontuação>10 pontos</pontuação>
+            <alternativas>
+                <alternativa correta="nao">7</alternativa>
+                <alternativa correta="nao">10</alternativa>
+                <alternativa correta="sim">12</alternativa>
+                <alternativa correta="nao">15</alternativa>
+            </alternativas>
+        </questão>
+        <questão>
+            <enunciado>quanto é 20 dividido por 4?</enunciado>
+            <pontuação>10 pontos</pontuação>
+            <alternativas>
+                <alternativa correta="sim">5</alternativa>
+                <alternativa correta="nao">4</alternativa>
+                <alternativa correta="nao">6</alternativa>
+                <alternativa correta="nao">10</alternativa>
+            </alternativas>
+        </questão>
+        <questão>
+            <enunciado>quanto é 15+15?</enunciado>
+            <pontuação>10 pontos</pontuação>
+            <alternativas>
+                <alternativa correta="nao">25</alternativa>
+                <alternativa correta="sim">30</alternativa>
+                <alternativa correta="nao">35</alternativa>
+                <alternativa correta="nao">40</alternativa>
+            </alternativas>
+        </questão>    
+    </questões>
+
+</quiz>

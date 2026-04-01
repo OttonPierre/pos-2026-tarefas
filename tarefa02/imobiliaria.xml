@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE imobiliaria [
+    <!ELEMENT imobiliaria (imovel+)>
+    <!ELEMENT imovel (descricao, proprietario, endereco, caracteristicas, valor)>
+    <!ELEMENT descricao (#PCDATA)>
+    <!ELEMENT proprietario (nome, (email | telefone)+)>
+    <!ELEMENT nome (#PCDATA)>
+    <!ELEMENT email (#PCDATA)>
+    <!ELEMENT telefone (#PCDATA)>
+    <!ELEMENT endereco (rua, bairro, cidade, numero?)>
+    <!ELEMENT rua (#PCDATA)>
+    <!ELEMENT bairro (#PCDATA)>
+    <!ELEMENT cidade (#PCDATA)>
+    <!ELEMENT numero (#PCDATA)>
+    <!ELEMENT caracteristicas (tamanho, numQuartos, numBanheiros)>
+    <!ELEMENT tamanho (#PCDATA)>
+    <!ELEMENT numQuartos (#PCDATA)>
+    <!ELEMENT numBanheiros (#PCDATA)>
+    <!ELEMENT valor (#PCDATA)>
+]>
+
+
+<imobiliaria>
+    <imovel>
+        <descricao>apartamento bom e barato</descricao>
+        <proprietario>
+            <nome>Gustavo</nome>
+            <email>gustavo@gmail.com</email>
+            <telefone>849999199</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Rua caiapos</rua>
+            <bairro>Pitimbu</bairro>
+            <cidade>Natal</cidade>
+        </endereco>
+        <caracteristicas>
+            <tamanho>90m2</tamanho>
+            <numQuartos>2</numQuartos>
+            <numBanheiros>2</numBanheiros>
+        </caracteristicas>
+        <valor>RS$ 500 mil</valor>
+    </imovel>
+    <imovel>
+        <descricao>mansão luxuosa</descricao>
+        <proprietario>
+            <nome>Pierre</nome>
+            <email>pierre@gmail.com</email>
+            <telefone>8499999912</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Fernando de Morais</rua>
+            <bairro>Pinheiros</bairro>
+            <cidade>Rio de Janeiro</cidade>
+        </endereco>
+        <caracteristicas>
+            <tamanho>2000m2</tamanho>
+            <numQuartos>6</numQuartos>
+            <numBanheiros>9</numBanheiros>
+        </caracteristicas>
+        <valor>RS$ 5 milhões</valor>
+    </imovel>
+    <imovel>
+        <descricao>apartamento pequeno</descricao>
+        <proprietario>
+            <nome>João</nome>
+            <email>joao@gmail.com</email>
+            <telefone>8499999102</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Otávio Lamartine</rua>
+            <bairro>Petropolis</bairro>
+            <cidade>Natal</cidade>
+        </endereco>
+        <caracteristicas>
+            <tamanho>45m2</tamanho>
+            <numQuartos>1</numQuartos>
+            <numBanheiros>1</numBanheiros>
+        </caracteristicas>
+        <valor>RS$ 250 mil</valor>
+    </imovel>
+    <imovel>
+        <descricao>casa boa e barata</descricao>
+        <proprietario>
+            <nome>Danilo</nome>
+            <email>danilo@gmail.com</email>
+            <telefone>8499991002</telefone>
+        </proprietario>
+        <endereco>
+            <rua>César Filho</rua>
+            <bairro>Olinda</bairro>
+            <cidade>Rio Branco</cidade>
+        </endereco>
+        <caracteristicas>
+            <tamanho>150m2</tamanho>
+            <numQuartos>4</numQuartos>
+            <numBanheiros>4</numBanheiros>
+        </caracteristicas>
+        <valor>RS$ 500 mil</valor>
+    </imovel>
+    <imovel>
+        <descricao>Casa pequena</descricao>
+        <proprietario>
+            <nome>Rafael</nome>
+            <email>rafael@gmail.com</email>
+            <telefone>8499991023</telefone>
+        </proprietario>
+        <endereco>
+            <rua>General Dantas</rua>
+            <bairro>Alecrim</bairro>
+            <cidade>Natal</cidade>
+        </endereco>
+        <caracteristicas>
+            <tamanho>80m2</tamanho>
+            <numQuartos>2</numQuartos>
+            <numBanheiros>2</numBanheiros>
+        </caracteristicas>
+        <valor>RS$ 150 mil</valor>
+    </imovel>
+</imobiliaria>

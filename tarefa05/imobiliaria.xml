@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<imobiliaria xmlns="http://imobiliaria.org" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://imobiliaria.org 
+                        imobiliaria.xsd">
+
+    <imovel>
+        <descricao>apartamento bom e barato</descricao>
+        <proprietario>
+            <nome>Gustavo</nome>
+            <email>gustavo@gmail.com</email>
+            <telefone>849999199</telefone>
+            <telefone>849991341</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Rua caiapos</rua>
+            <bairro>Pitimbu</bairro>
+            <cidade>Natal</cidade>
+        </endereco>
+        <caracteristicas>
+            <tamanho>90</tamanho>
+            <numQuartos>2</numQuartos>
+            <numBanheiros>2</numBanheiros>
+        </caracteristicas>
+        <valor>RS$ 500 mil</valor>
+    </imovel>
+    <imovel>
+        <descricao>mansão luxuosa</descricao>
+        <proprietario>
+            <nome>Pierre</nome>
+            <email>pierre@gmail.com</email>
+            <telefone>8499999912</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Fernando de Morais</rua>
+            <bairro>Pinheiros</bairro>
+            <cidade>Rio de Janeiro</cidade>
+            <numero>87</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>2000</tamanho>
+            <numQuartos>6</numQuartos>
+            <numBanheiros>9</numBanheiros>
+        </caracteristicas>
+        <valor>RS$ 5 milhões</valor>
+    </imovel>
+    <imovel>
+        <descricao>apartamento pequeno</descricao>
+        <proprietario>
+            <nome>João</nome>
+            <telefone>8499999102</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Otávio Lamartine</rua>
+            <bairro>Petropolis</bairro>
+            <cidade>Natal</cidade>
+            <numero>55</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>45</tamanho>
+            <numQuartos>1</numQuartos>
+            <numBanheiros>1</numBanheiros>
+        </caracteristicas>
+        <valor>RS$ 250 mil</valor>
+    </imovel>
+    <imovel>
+        <descricao>casa boa e barata</descricao>
+        <proprietario>
+            <nome>Danilo</nome>
+            <email>danilo@gmail.com</email>
+            <telefone>8499991002</telefone>
+        </proprietario>
+        <endereco>
+            <rua>César Filho</rua>
+            <bairro>Olinda</bairro>
+            <cidade>Rio Branco</cidade>
+            <numero>447</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>150</tamanho>
+            <numQuartos>4</numQuartos>
+            <numBanheiros>4</numBanheiros>
+        </caracteristicas>
+        <valor>RS$ 500 mil</valor>
+    </imovel>
+    <imovel>
+        <descricao>Casa pequena</descricao>
+        <proprietario>
+            <nome>Rafael</nome>
+            <email>rafael@gmail.com</email>
+            <telefone>8499991023</telefone>
+        </proprietario>
+        <endereco>
+            <rua>General Dantas</rua>
+            <bairro>Alecrim</bairro>
+            <cidade>Natal</cidade>
+            <numero>102</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>80</tamanho>
+            <numQuartos>2</numQuartos>
+            <numBanheiros>2</numBanheiros>
+        </caracteristicas>
+        <valor>RS$ 150 mil</valor>
+    </imovel>
+
+</imobiliaria>

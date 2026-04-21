@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        xmlns:b="http://imobiliaria.org"
+        targetNamespace="http://imobiliaria.org"
+        elementFormDefault="qualified">
+
+        <element name="imovel" type="b:imovel"/>
+        <element name="descricao" type="string"></element>
+        <element name="proprietario">
+            <complexType>
+                <sequence>
+                    <element name="nome" type="string"></element>
+                    <element name="email" type="string" minOccurs="0" maxOccurs="unbounded"></element>
+                    <element name="telefone" type="string" minOccurs="0" maxOccurs="unbounded"></element>
+                </sequence>
+            </complexType>
+        </element>
+        <element name="endereco">
+            <complexType>
+                <sequence>
+                    <element name="rua" type="string"></element>
+                    <element name="bairro" type="string"></element>
+                    <element name="cidade" type="string"></element>
+                    <element name="numero" type="integer" minOccurs="0"></element>
+                </sequence>
+            </complexType>
+        </element>
+        <element name="caracteristicas">
+            <complexType>
+                <sequence>
+                    <element name="tamanho" type="decimal"></element>
+                    <element name="numQuartos" type="integer"></element>
+                    <element name="numBanheiros" type="integer"></element>
+                </sequence>
+            </complexType>
+        </element>
+        <element name="valor" type="string"></element>
+
+        <complexType name="imovel">
+            <sequence>
+            <element ref="b:descricao"/>
+            <element ref="b:proprietario"/>
+            <element ref="b:endereco"/>
+            <element ref="b:caracteristicas"/>
+            <element ref="b:valor"/>
+            </sequence>
+        </complexType>
+
+        <element name="imobiliaria">
+        <complexType>
+            <sequence>
+                <element ref="b:imovel" minOccurs="1" maxOccurs="unbounded"/>
+            </sequence>
+        </complexType>
+        </element>
+</schema>

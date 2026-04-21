@@ -7,9 +7,9 @@
     <element name="prato" type="b:prato"/>
     <element name="nome" type="string"/>
     <element name="descricao" type="string"/>
-    <element name="preco" type="string"/>
+    <element name="preco" type="decimal"/>
     <element name="tempoPreparo" type="string"/>
-    <element name="calorias" type="string"/>
+    <element name="calorias" type="integer"/>
     <element name="ingrediente" type="string"/>
 
     <element name="ingredientes">

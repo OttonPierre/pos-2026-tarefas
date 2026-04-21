@@ -10,8 +10,8 @@
             <ingrediente>Arroz</ingrediente>
             <ingrediente>Frango</ingrediente>
         </ingredientes>
-        <preco>20</preco>
-        <calorias>400Kcal</calorias>
+        <preco>20.00</preco>
+        <calorias>400</calorias>
         <tempoPreparo>20 min</tempoPreparo>
     </prato>
         <prato id="2">
@@ -21,8 +21,8 @@
             <ingrediente>Macarrão</ingrediente>
             <ingrediente>Carne</ingrediente>
         </ingredientes>
-        <preco>30</preco>
-        <calorias>500Kcal</calorias>
+        <preco>30.00</preco>
+        <calorias>500</calorias>
         <tempoPreparo>30 min</tempoPreparo>
     </prato>
         <prato id="3">
@@ -34,8 +34,8 @@
             <ingrediente>alho</ingrediente>
             <ingrediente>pimenta-do-reino</ingrediente>
         </ingredientes>
-        <preco>40</preco>
-        <calorias>450Kcal</calorias>
+        <preco>40.00</preco>
+        <calorias>450</calorias>
         <tempoPreparo>1 hora</tempoPreparo>
     </prato>
         <prato id="4">
@@ -45,8 +45,8 @@
             <ingrediente>Arroz</ingrediente>
             <ingrediente>Ovo</ingrediente>
         </ingredientes>
-        <preco>10</preco>
-        <calorias>200Kcal</calorias>
+        <preco>10.00</preco>
+        <calorias>200</calorias>
         <tempoPreparo>15 min</tempoPreparo>
     </prato>
         <prato id="5">
@@ -56,8 +56,8 @@
             <ingrediente>Arroz</ingrediente>
             <ingrediente>Fafora</ingrediente>
         </ingredientes>
-        <preco>5</preco>
-        <calorias>200Kcal</calorias>
+        <preco>5.00</preco>
+        <calorias>200</calorias>
         <tempoPreparo>10 min</tempoPreparo>
     </prato>
 </cardapio>

@@ -1,0 +1,80 @@
+{
+    "cardapio": {
+        "prato": 
+            [
+                {
+                    "id": "p01",
+                    "nome": "Arroz com frango",
+                    "descricao": "prato muito nutritivo com bastante carboidratos e proteínas",
+                    "ingredientes": {
+                        "ingrediente": [
+                            "arroz",
+                            "frango"
+                        ]
+                    }, 
+                    "preco": "R$ 20.00",
+                    "calorias": "400kcal",
+                    "tempoPreparo": "20 min"
+                },
+                {
+                    "id": "p02",
+                    "nome": "Macarrão com carne",
+                    "descricao": "prato muito saboroso e nutritivo",
+                    "ingredientes": {
+                        "ingrediente": [
+                            "Macarrão",
+                            "Carne"
+                        ]
+                    }, 
+                    "preco": "R$ 30.00",
+                    "calorias": "500Kcal",
+                    "tempoPreparo": "30 min"
+                },
+                {
+                    "id": "p03",
+                    "nome": "creme de galinha",
+                    "descricao": "prato simplesmente fenomenal, muito saboroso e saciante",
+                    "ingredientes": {
+                        "ingrediente": [
+                            "Frango",
+                            "Leite",
+                            "alho",
+                            "pimenta-do-reino"
+                        ]
+                    }, 
+                    "preco": "R$ 40.00",
+                    "calorias": "450Kcal",
+                    "tempoPreparo": "1 hora"
+                },
+                {
+                    "id": "p04",
+                    "nome": "Arroz com ovo",
+                    "descricao": "prato saboroso e barato",
+                    "ingredientes": {
+                        "ingrediente": [
+                            "arroz",
+                            "ovo"
+                        ]
+                    }, 
+                    "preco": "R$ 15.00",
+                    "calorias": "300Kcal",
+                    "tempoPreparo": "15 min"
+                },
+                {
+                    "id": "p05",
+                    "nome": "Arroz com farofa",
+                    "descricao": "prato para encher o bucho",
+                    "ingredientes": {
+                        "ingrediente": [
+                            "arroz",
+                            "farofa"
+                        ]
+                    }, 
+                    "preco": "R$ 10.00",
+                    "calorias": "300Kcal",
+                    "tempoPreparo": "5 min"
+                }
+            ]
+
+    }
+}
